@@ -1,12 +1,21 @@
 <html lang="en">
   <head>
+    <title>About</title>
+      <link rel="icon" href="/images/weather.jpg">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <h1>{{title}}</h1>
+    <div class = "main-content">
+      {{>header}}
+    <img src="../images/me1.jpg" alt="a picture of myself" class="portrait" />
     <h1>{{name}}</h1>
+    </div>
+ 
+ <footer>
+       {{>footer}}
+ </footer>
   </body>
 </html>
